@@ -1,0 +1,1263 @@
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+
+
+
+	<head>
+		<base href="http://lt.morningstar.com" >
+		
+		<script type="text/javascript" src="http://lt.morningstar.com/js/jquery/jquery-1.7.1.min.js?183992"></script>
+		<script type="text/javascript" src="http://lt.morningstar.com/js/jquery/jquery.cookie.min.js?183992"></script>
+		<script type="text/javascript" src="http://lt.morningstar.com/js/cookie.min.js?183992"></script>
+		
+		<script src="http://lt.morningstar.com/js/anticlickjack.min.js?183992?183992" type="text/javascript"></script>
+		<script type="text/javascript">var allowedFrameParents = "iwtadmin.morningstar.com|euiwtadmqa.morningstar.com|euiwtadm.morningstar.com|euffiwtadm.morningstar.com|nefer.bankinter.bk|intranet.bankinter.bk|sefer.bankinter.bk|www.bankinter.com|empresas.bankinter.com|yandex.ru|correo.movistar.es|lt.morningstar.com", pCJ=false, pCJU="http://lt.morningstar.com/1rsmhj5bdn/snapshot/snapshot.aspx?tab=11&SecurityToken=CBLT021596]2]1]CBALL$$ALL_3947&Id=CBLT021596&ClientFund=1&CurrencyId=EUR&LanguageId=es-ES";</script>
+		<link href="http://lt.morningstar.com/styles/masterpage.css?183992" type="text/css" rel="stylesheet" />
+		<link href="http://lt.morningstar.com/styles/main.css?183992" type="text/css" rel="stylesheet" />
+		<link href="http://lt.morningstar.com/styles/snapshot_layout.css?183992" type="text/css" rel="stylesheet" />
+		<link href="http://lt.morningstar.com/styles/snapshot.css?183992" type="text/css" rel="stylesheet" />
+		
+		<title>
+	Morningstar® Integrated Web Tools™ - Investment Report
+		</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+		<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+
+		<meta http-equiv="content-language" content="es-ES" />
+		<meta name="language" content="Español" />
+
+		<link rel="stylesheet" type="text/css" href="http://lt.morningstar.com/styles/title-bar.css?183992" />
+		<link rel="stylesheet" type="text/css" href="http://lt.morningstar.com/styles/disclaimer.css?183992" />
+		<script type="text/javascript" src="http://lt.morningstar.com/js/scripts.js?183992"></script>
+		<script type="text/javascript" src="http://lt.morningstar.com/js/help.js?183992"></script>
+		<script type="text/javascript" src="http://lt.morningstar.com/js/homefunctions.js?183992"></script>
+
+
+		<script type="text/javascript">
+				var AppPath = '';
+				var CurrencyId = 'EUR';
+				var LanguageId = 'es-ES';
+				var LocalAppPath = '';
+				var StaticContentURL = ''; // For static content called via javascript. Please fully qualify any links that use this.
+				var UrlKey = '1rsmhj5bdn';
+				var ModuleId = '1';
+				var JSMode = 'min';
+				var AllowCookies = 'true';
+			    var AllowedCookies = '';
+				var bpchartUrl = 'http://bpcharts-eu.morningstar.com/chart';
+
+
+
+				var tab = '11';
+				var SecurityToken = 'CBLT021596\x5d2\x5d1\x5dCBALL\x24\x24ALL_3947';
+				var Id = 'CBLT021596';
+				var ClientFund = '1';
+
+
+				//the trim function is in the scripts.js file, but in IE, sometimes the next code will call first before the js loaded.
+				function trimSpace(text){
+					//trim whitespace from a string
+					text = text.replace(/^\s+/g,''); //leading space
+					return text.replace(/\s+$/g,''); //trailing space
+				}
+
+				if (trimSpace(StaticContentURL) != ''){
+					while (StaticContentURL.substr(StaticContentURL.length - 1, 1) == "/")
+						StaticContentURL = StaticContentURL.substr(0, StaticContentURL.length - 1)
+				}
+		</script>
+
+		<link rel="stylesheet" type="text/css" media="print" href="http://lt.morningstar.com/styles/print.css?183992" />
+
+
+		<style type="text/css">
+			.snapshotTable td.titleBarHeading {
+background-color: #E95D0F;
+color: #FFFFFF;
+}
+.snapshotTable td.titleBarNote {
+background-color: #E95D0F;
+color: #FFFFFF;
+}
+td.gridBuyButton {
+background-image:url('/GetImage.ashx?FileID=4643&W=130&H=90');
+}
+.gridBuyButton {
+background-image:url('/GetImage.ashx?FileID=4643&W=130&H=90');
+height: 90px;
+}
+.xrayBuyImage {
+background-image:url('/GetImage.ashx?FileID=4643&W=130&H=90');
+}
+.snapshotBuyImage {
+background-image:url('/GetImage.ashx?FileID=4643&W=130&H=90');
+}
+#MasterNavigationRight { display:none; }
+#MasterNavigationLeft { display:none; }
+
+			.devFooter {
+				clear: both;
+				color: Red;
+				text-align: center;
+				font-size: 2em;
+				font-weight: bold;
+				padding: 25px;
+				border: 2px solid Black;
+			}
+		</style>
+		<style type="text/css">
+.externalGlossary p {display:none;}
+#MasterNavigationBottom{width:763px;}
+		</style>
+		<script type="text/javascript">
+var paramC='@C';
+
+  function removeURLParam(url, param){
+     var urlparts= url.split('?');
+     if (urlparts.length>=2){
+       var prefix= encodeURIComponent(param)+'=';
+       var pars= urlparts[1].split(/[&;]/g);
+       for (var i=pars.length; i-- > 0;)
+           if (pars[i].indexOf(prefix, 0)==0)
+               pars.splice(i, 1);
+        if (pars.length > 0)
+         return urlparts[0]+'?'+pars.join('&');
+        else
+       return urlparts[0];
+    }
+    else
+      return url;
+}
+
+
+    function request(name)
+    {
+		name = name.toLowerCase().replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+		var regexS = "[\\?&]"+name+"=([^&#]*)";
+		var regex = new RegExp( regexS );
+		var results = regex.exec(self.location.href.toLowerCase());
+		if( results == null )
+			return "";
+		else
+		return results[1];
+	}
+
+	function setCookie(c_name, value, exdays) 
+        { 
+		var exdate=new Date();
+		exdate.setDate(exdate.getDate() + exdays);
+		//var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString()) + "; path=/";
+                var c_value=escape(value)  + "; path=/";
+		document.cookie=c_name + "=" + c_value;
+	}
+
+	function getCookie(c_name)
+	{ 
+		var i,x,y,ARRcookies=document.cookie.split(";");
+		for (i=0;i<ARRcookies.length;i++)
+		{
+			x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+			y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+			x=x.replace(/^\s+|\s+$/g,"");
+			if (x==c_name)
+			{
+				return unescape(y);
+			}
+		}
+	}
+
+	function delCookie (name) 
+	{ 
+		var path ="/";
+		var domain = null;
+		var secure = null;
+
+		if ( getCookie( name ) ) document.cookie = name + "=" +
+		";expires=Thu, 01-Jan-1970 00:00:01 GMT" +
+		( ( path ) ? ";path=" + path : "") ;
+		//( ( domain ) ? ";domain=" + domain : "" ) +
+
+
+	}
+
+        if(request('c')!='')
+	{
+	     setCookie("c",request('c'),1);
+	 }
+
+				</script>
+				<style type="text/css">
+.docLibHeading
+{
+font-weight: bold;
+border-bottom: 1px;
+border-bottom-style: dotted;
+}
+
+.msTitleBarSelect {margin-right: 0;}
+.externalGlossary p {display:none;}
+.ms_titlebar {background:none;border-right: none;border-left: none;border-top: none;border-bottom: 1px solid #C8C8C8}
+#linksearch{background-image:url('/GetImage.ashx?FileID=4644&W=130&H=90');background-repeat: no-repeat;height:22px}
+.snapshotBuyImage{float:right;width:72px;}
+#managementPurchaseInformationDiv{margin-top:0px}
+table.managementPurchaseInformationTable{width:275px;}
+#pdfDes,.iconSmallPdfImg{float: left;font-size: 14px;}
+.snapshotIconsTable td.icons{padding-left: 250px;}
+#riskDiv{display:none}
+.iconPrintImg{display:none;}
+span.iconPrint{background-image:url('/util/GetImage.ashx?FileId=4927');}
+.msTitleBarLabel {display: inline;}
+				</style>
+
+				<script type="text/javascript">
+//if(BaseCurrencyId!= CurrencyId){
+
+//var urlTemp= removeURLParam(self.location.href,'CurrencyId') ;
+
+//self.location.href = urlTemp +="&CurrencyId=" + BaseCurrencyId;
+
+//}
+
+				</script>
+
+
+				<!--[if IE 8]>
+				<link rel="stylesheet" type="text/css" media="all" href="/styles/ie8.css?183992"/>
+			<![endif]-->
+				<!--[if lte IE 7]>
+				<link rel="stylesheet" type="text/css" media="all" href="/styles/ie.css?183992"/>
+			<![endif]-->
+
+				
+			</head>
+
+			<body id="ctl00_MasterBody" class="fundreport-snapshot&#32;cblt021596&#32;cballall_3947&#32;es&#32;esES&#32;eur">
+
+				<script type="text/tcl"/>
+				<noscript>
+
+					<h3>You don't have Javascript enabled. For full functionality this page requires javascript to be enabled.<br />
+						<br />
+					</h3>
+				</noscript>
+
+
+
+				<div id="MasterNavigationTop">
+					<script type="text/javascript">
+						<!--//-->
+						<![CDATA[//><!--
+if (document.images) {img1 = new Image();img1.src="http://lt.morningstar.com/util/GetImage.ashx?FileId=4927";}
+//--><!]]>
+
+
+  //  if(request("c") !="")
+ //   {
+  //       delCookie("c");
+  //       setCookie("c",request("c"),1);
+  //  }
+
+function getParameterByName(name) {
+
+    var match = RegExp('[?&]' + name + '=([^&]*)')
+                    .exec(window.location.search);
+
+    return match ?
+        decodeURIComponent(match[1].replace(/\+/g, ' '))
+        : null;
+
+}
+
+function buy(fondo, isin, moneda, codigos, nombreGestora)
+{
+   //var urlQaParticulares = 'https://ebankinter.pre.bankinter.bk/www/es-es/cgi/ebk+fon+comprar_fi_susc_ini?fondo=';
+   var urlQaParticulares = 'https://www.bankinter.com/www/es-es/cgi/ebk+fon+comprar_fi_susc_ini?fondo=';
+   //var urlQaEmpresas = 'https://empresas.pre.bankinter.bk/www/es-es/cgi/empresas+inversiones+fondos+susc_ini';
+   var urlQaEmpresas = 'https://empresas.bankinter.com/www/es-es/cgi/empresas+inversiones+fondos+susc_ini?fondo=';
+   var urlQaNuevaBoL ='https://bancaonline.bankinter.com/fondos/secure/fondos_primera_suscripcion.xhtml?cod='
+
+   var codigosTemp=[] ;
+   var codIntFund = '';
+   var codIntManager ='';
+   var codTipoGestora='';
+
+   var action= urlQaParticulares ;
+
+   // if(request('c')=='e' || paramC=='e' ||getCookie('c')=='e') {action=urlQaEmpresas;} 
+
+    if(request('c')=='e'){
+         action=urlQaEmpresas;
+    }
+    else if(request('c')=='p'){
+         action=urlQaParticulares;
+    }
+    else if(request('c')=='nbol'){
+         action=urlQaNuevaBoL;
+    }
+    else if (getCookie('c')=='p'){
+         action=urlQaParticulares;
+    }
+    else if (getCookie('c')=='e'){
+           action=urlQaEmpresas;
+    }
+    else if (getCookie('c')=='nbol'){
+           action=urlQaNuevaBoL;
+    }
+
+
+    if(codigos!='')
+    { 
+      codigosTemp=codigos.split("|");
+
+      if(codigosTemp.length >0)  codIntFund=codigosTemp[0];
+      if(codigosTemp.length >1)  codIntManager =codigosTemp[1];
+      if(codigosTemp.length =3)  codTipoGestora=codigosTemp[2];   
+    }
+
+   action=action+codIntFund;
+
+   if(!document.forms[0].desc_fondo)
+   {
+		var NombreFondo = document.createElement("input");
+			NombreFondo.setAttribute("type", "hidden");
+            NombreFondo.setAttribute("name","desc_fondo");
+            NombreFondo.setAttribute("value", fondo);
+
+		document.forms[0].appendChild(NombreFondo);
+   }
+
+   if(!document.forms[0].cod_gestora_destino)
+   {
+	var CodigoInternoGestora= document.createElement("input");
+            CodigoInternoGestora.setAttribute("type", "hidden");
+            CodigoInternoGestora.setAttribute("name", "cod_gestora_destino");
+            CodigoInternoGestora.setAttribute("value", codIntManager);
+
+		document.forms[0].appendChild(CodigoInternoGestora);
+    }
+   if(!document.forms[0].cod_gest)
+   {
+	var CodigoGestora= document.createElement("input");
+            CodigoGestora.setAttribute("type", "hidden");
+            CodigoGestora.setAttribute("name", "cod_gest");
+            CodigoGestora.setAttribute("value", codIntManager);
+
+		document.forms[0].appendChild(CodigoGestora);
+    }
+
+	if(!document.forms[0].cod_fondo_plan_destino)
+	{
+		var CodigoFondoPlanDestino= document.createElement("input");
+			CodigoFondoPlanDestino.setAttribute("type", "hidden");
+			CodigoFondoPlanDestino.setAttribute("name", "cod_fondo_plan_destino");
+			CodigoFondoPlanDestino.setAttribute("value", codIntFund);
+
+		document.forms[0].appendChild(CodigoFondoPlanDestino);
+	}
+
+	if(!document.forms[0].cod_fondo)
+	{
+		var CodigoFondoDestino= document.createElement("input");
+			CodigoFondoDestino.setAttribute("type", "hidden");
+			CodigoFondoDestino.setAttribute("name", "cod_fondo");
+			CodigoFondoDestino.setAttribute("value", codIntFund);
+
+		document.forms[0].appendChild(CodigoFondoDestino);
+	}
+
+
+	//if(!document.forms[0].desc_gestora_destino)
+	//{
+	//	var NombreGestora= document.createElement("input");
+	//		NombreGestora.setAttribute("type", "hidden");
+	//		NombreGestora.setAttribute("name", "desc_gestora_destino");
+	//		NombreGestora.setAttribute("value", nombreGestora);
+
+	//	document.forms[0].appendChild(NombreGestora);
+	//}
+
+	if(!document.forms[0].cod_isin_destino)
+	{
+		var CodigoIsinDestino= document.createElement("input");
+			CodigoIsinDestino.setAttribute("type", "hidden");
+			CodigoIsinDestino.setAttribute("name", "cod_isin_destino");
+			CodigoIsinDestino.setAttribute("value", isin);
+
+		document.forms[0].appendChild(CodigoIsinDestino);
+	}
+
+	if(!document.forms[0].cod_isin)
+	{
+		var CodigoIsin= document.createElement("input");
+			CodigoIsin.setAttribute("type", "hidden");
+			CodigoIsin.setAttribute("name", "cod_isin");
+			CodigoIsin.setAttribute("value", isin);
+
+		document.forms[0].appendChild(CodigoIsin);
+	}
+
+	if(!document.forms[0].gest_fondo)
+	{
+		var TipoGestora= document.createElement("input");
+			TipoGestora.setAttribute("type", "hidden");
+			TipoGestora.setAttribute("name", "gest_fondo");
+			TipoGestora.setAttribute("value", codTipoGestora);
+
+		document.forms[0].appendChild(TipoGestora);
+	}
+
+      document.forms[0].action= action;
+      document.forms[0].target="_blank";
+      document.forms[0].submit();
+ //  return false;
+
+}
+				</script>
+			</div>
+
+			<div id="MasterMiddle">
+				<div id="MasterNavigationLeft">
+
+				</div>
+
+				<div id="MasterMainContent">
+					<div id="MasterMainContentTop">
+						<table id="c_logo">
+							<tr>
+								<td align="left">
+									<img src="http://lt.morningstar.com/util/GetImage.ashx?FileId=3976"  width="161px" height="29px"/>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div id="MasterMainNavigationTop">
+
+					</div>
+
+					<form method="post" action="/1rsmhj5bdn/snapshot/snapshot.aspx?tab=11&amp;SecurityToken=CBLT021596]2]1]CBALL$$ALL_3947&amp;Id=CBLT021596&amp;ClientFund=1&amp;CurrencyId=EUR&amp;LanguageId=es-ES" id="aspnetForm">
+						<div>
+							<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="LNuWgWBwW5g6cgmUvVzg1UGSm1vjL1O3mz0IhdBwrstmiAlyvfnhDzSOiBskzV1Tskb6MChxRnUvqfJ2PySL+38cDcA1YtG2T61urVYwZY+NZz7/ty9KTQBNLgbjtzQw" />
+						</div>
+
+
+						<script type="text/javascript">
+//<![CDATA[
+var allowedFrameParents = "iwtadmin.morningstar.com|euiwtadmqa.morningstar.com|euiwtadm.morningstar.com|euffiwtadm.morningstar.com|nefer.bankinter.bk|intranet.bankinter.bk|sefer.bankinter.bk|www.bankinter.com|empresas.bankinter.com|yandex.ru|correo.movistar.es|lt.morningstar.com", pCJ=false, pCJU="http://lt.morningstar.com/1rsmhj5bdn/snapshot/snapshot.aspx?tab=11&SecurityToken=CBLT021596]2]1]CBALL$$ALL_3947&Id=CBLT021596&ClientFund=1&CurrencyId=EUR&LanguageId=es-ES";
+if (typeof checkforValidFrameParent == 'function') { checkforValidFrameParent(allowedFrameParents); }//]]>
+						</script>
+
+						<div>
+							<a id="top"/>
+						</div>
+
+						<div id="snapshot_main_container">
+
+
+
+							<div id="ctl00_ContentPlaceHolder1_msTopBar_divTitleBar" class="ms_titlebar&#32;msTitleBar&#32;clearfix">
+								<div class="floatLeft">
+
+									<div id="ctl00_ContentPlaceHolder1_msTopBar_divTitleBarTitle" class="ms_titlebar_title&#32;msTitleBarTitle">
+										<h1>
+				Informe de fondos Morningstar
+										</h1>
+									</div>
+								</div>
+
+								<div class="floatRight">
+									<div id="divTitleBarOptions" class="ms_titlebar_dropdowns msTitleBarOptions noPrint">
+										<div id="ctl00_ContentPlaceHolder1_msTopBar_divTitleBarOptionsCurrencyLanguage" class="msTitleBarOptionsCurrencyLanguage">
+											<span id="ctl00_ContentPlaceHolder1_msTopBar_lblTitleBarCurrencyLanguageStart" class="hidden">(Start of Change Currency)</span>
+											<label for="ctl00_ContentPlaceHolder1_msTopBar_ddlTitleBarCurrency" id="ctl00_ContentPlaceHolder1_msTopBar_lblTitleBarCurrency" class="msTitleBarLabel&#32;msTitleBarLabelCurrency&#32;mrd-sr-only">Divisa</label>
+											<select name="ctl00$ContentPlaceHolder1$msTopBar$ddlTitleBarCurrency" id="ctl00_ContentPlaceHolder1_msTopBar_ddlTitleBarCurrency" title="Divisa" class="msTitleBarSelect&#32;msTitleBarSelectCurrency" onchange="toolBarChangeCurrency(this);return&#32;false;">
+												<option value="AUD">AUD - Dólar Australiano</option>
+												<option value="CAD">CAD - Dólar Canadiense</option>
+												<option value="CHF">CHF - Franco Suizo</option>
+												<option selected="selected" value="EUR">EUR - Euro</option>
+												<option value="GBP">GBP - Libra</option>
+												<option value="HKD">HKD - Dólar de Hong Kong</option>
+												<option value="JPY">JPY - Yen Japonés</option>
+												<option value="NOK">NOK - Corona Sueca</option>
+												<option value="SEK">SEK - Corona Sueca</option>
+												<option value="USD">USA - Dólar USA</option>
+
+											</select>
+
+
+											<noscript>
+												<div>
+													<input type="submit" name="ctl00$ContentPlaceHolder1$msTopBar$btnTitleBarCurrencyLanguage" value="Go" id="ctl00_ContentPlaceHolder1_msTopBar_btnTitleBarCurrencyLanguage" title="Go" class="msTitleBarButton&#32;msTitleBarButtonCurrencyLanguage" />
+												</div>
+											</noscript>
+											<span id="ctl00_ContentPlaceHolder1_msTopBar_lblTitleBarCurrencyLanguageEnd" class="hidden">(End of Change Currency)</span>
+										</div>
+
+
+									</div>
+
+
+								</div>
+
+								<script type="text/javascript">
+	//<![CDATA[
+		var btnTitleBarCurrencyLanguage = 'ctl00_ContentPlaceHolder1_msTopBar_btnTitleBarCurrencyLanguage',
+			btnTitleBarTools = 'ctl00_ContentPlaceHolder1_msTopBar_btnTitleBarTools',
+			ddlTitleBarCurrency = 'ctl00_ContentPlaceHolder1_msTopBar_ddlTitleBarCurrency',
+			ddlTitleBarLanguage = 'ctl00_ContentPlaceHolder1_msTopBar_ddlTitleBarLanguage',
+			ddlTitleBarTools = 'ctl00_ContentPlaceHolder1_msTopBar_ddlTitleBarTools',
+			divTitleBar = 'ctl00_ContentPlaceHolder1_msTopBar_divTitleBar',
+			divTitleBarBack = 'ctl00_ContentPlaceHolder1_msTopBar_divTitleBarBack',
+			divTitleBarHelp = 'ctl00_ContentPlaceHolder1_msTopBar_divTitleBarHelp',
+			divTitleBarOptions = 'divTitleBarOptions',
+			divTitleBarOptionsCurrencyLanguage = 'ctl00_ContentPlaceHolder1_msTopBar_divTitleBarOptionsCurrencyLanguage',
+			divTitleBarOptionsTools = 'ctl00_ContentPlaceHolder1_msTopBar_divTitleBarOptionsTools',
+			divTitleBarTitle = 'ctl00_ContentPlaceHolder1_msTopBar_divTitleBarTitle',
+			lblTitleBarCurrency = 'ctl00_ContentPlaceHolder1_msTopBar_lblTitleBarCurrency',
+			lblTitleBarLanguage = 'ctl00_ContentPlaceHolder1_msTopBar_lblTitleBarLanguage',
+			lblTitleBarTools = 'ctl00_ContentPlaceHolder1_msTopBar_lblTitleBarTools',
+			lnkTitleBarBackButton = 'ctl00_ContentPlaceHolder1_msTopBar_lnkTitleBarBackButton',
+			lnkTitleBarHelp = 'ctl00_ContentPlaceHolder1_msTopBar_lnkTitleBarHelp';
+
+		function toolsTitleBarChangeTool(selectedToolObject){
+			var path = '';
+			switch (parseInt(selectedToolObject.value)){
+				
+			}
+			if (trim(path) != '') window.location = unescape(path);
+		}
+
+		function navigateTo(siteNo){
+			if (window.history.length > 0){
+				window.history.go(siteNo);
+			}else{
+				//IE workaround to avoid dialog
+				//this is not working for FF
+				window.open('', '_parent', '');
+				window.close();
+			}
+		}
+
+		function hideBackButton(){
+			var msReferrer = "False";
+			if(msReferrer){
+				msReferrer = msReferrer.toLowerCase();
+				if (msReferrer){
+					var backButtonContainer = $('#' + divTitleBarBack);
+					if(backButtonContainer.length > 0){
+						var backButton = $('#' + lnkTitleBarBackButton);
+						if (backButton.length > 0){
+							var minLength = 2;
+							if (navigator.userAgent.toLowerCase().indexOf("msie") != -1) minLength = 1;
+							if (window.history.length < minLength){
+								backButtonContainer.hide();
+								return;
+							}
+								
+							var backToClick = backButton.attr('onclick');
+							var backTo = new String(backToClick);
+							backTo = backTo.substring((backTo.indexOf("navigateTo(") + 11),(backTo.indexOf(")",(backTo.indexOf("navigateTo(") + 11))));
+							backTo = parseInt(backTo,10);
+							if (window.history.length + backTo < minLength - 1) backButtonContainer.remove();
+						}
+					}
+				}
+			}
+		}
+
+		hideBackButton();
+
+		var ShowHelpIcon = false;
+		if (ShowHelpIcon){
+			if ($('#' + divTitleBarHelp + ' #helpDiv').length > 0){
+				_positionDivId = divTitleBar;
+				_helpLink = '/1rsmhj5bdn/HelpContent/helpsection.aspx?HelpSectionKey=HelpQuicktake&LanguageId=es-ES';  
+				InitHelp();
+			}
+		}
+	//]]>
+								</script>
+							</div>
+							<script type="text/javascript">
+			//<![CDATA[
+			// Currency
+			var sGraphCuriso = 'EUR';
+			// Category
+			var iCategoryIndexId = '';
+			// Index
+			var iGraphIndexId = '';
+			var PerformanceId = 'CBLT021596';
+
+			var HoldingId = 'CBLT021596';
+			var HoldingName = "";
+
+			//var HoldingIsin='';
+			var HoldingIsin='';
+			var HoldingCurrency='EUR';
+
+			var SnapshotOriginalReloadURL = '';
+			var SnapshotOriginalQueryString = "&URLKey=1rsmhj5bdn&tab=11&SecurityToken=CBLT021596%5D2%5D1%5DCBALL%24%24ALL_3947&Id=CBLT021596&ClientFund=1&CurrencyId=EUR&LanguageId=es-ES";
+			var CurrencyId = 'EUR';
+			var LanguageId = 'es-ES';
+			var CustomCategory2 ='';
+			var CustomCategory2DefaultValues ='';
+			var IsReloading = false;
+			var ISA = '';
+
+			function toolBarChangeCurrency(o){
+				if (!IsReloading){
+					IsReloading = true;
+
+					var SnapshotReloadURL = SnapshotOriginalReloadURL;
+					var SnapshotQueryString = SnapshotOriginalQueryString;
+
+					if (SnapshotReloadURL == '')
+						SnapshotReloadURL = 'snapshot.aspx?';
+
+					var BaseCurrencyKey = '&CurrencyId=' + CurrencyId;
+
+					if (o != null && o.value != null)
+						CurrencyId = o.value;
+
+					var NewCurrencyKey = '&CurrencyId=' + CurrencyId;
+
+					SnapshotQueryString = SnapshotQueryString.replace(BaseCurrencyKey, '');
+					SnapshotQueryString += NewCurrencyKey;
+
+					// If the URL was being called with the BAS currency Id we add it and remove BAS
+					// We should not have CurrencyId=BAS in the url.  Snapshot does not support it.
+					// Therefore we remove it
+					if (SnapshotQueryString.match("&CurrencyId=BAS"))
+					{
+						var BaseCurrencyId = getURLParameter("BaseCurrencyId");
+						if (BaseCurrencyId.length > 0)
+							SnapshotQueryString += '&CurrencyId=' + BaseCurrencyId;
+					}
+					SnapshotQueryString = SnapshotQueryString.replace('&CurrencyId=BAS', '');
+
+					if (SnapshotQueryString.indexOf("reloadsnapshot") == -1)
+						SnapshotReloadURL = SnapshotReloadURL + SnapshotQueryString + "&reloadsnapshot=1";
+					else
+						SnapshotReloadURL = SnapshotReloadURL + SnapshotQueryString;
+
+					window.location.href = SnapshotReloadURL;
+				}
+
+				return false;
+			}
+
+			function toolBarChangeLanguage(o){
+				if (!IsReloading){
+					IsReloading = true;
+
+					var SnapshotReloadURL = SnapshotOriginalReloadURL;
+					var SnapshotQueryString = SnapshotOriginalQueryString;
+
+					if (SnapshotReloadURL == '')
+						SnapshotReloadURL = 'snapshot.aspx?';
+
+					var BaseLanguageKey = '&LanguageId=' + LanguageId;
+
+					if (o != null && o.value != null)
+						LanguageId = o.value;
+
+					var NewLanguageKey = '&LanguageId=' + LanguageId;
+
+					SnapshotQueryString = SnapshotQueryString.replace(BaseLanguageKey, '');
+					SnapshotQueryString += NewLanguageKey;
+
+					if (SnapshotQueryString.indexOf("reloadsnapshot") == -1)
+						SnapshotReloadURL = SnapshotReloadURL + SnapshotQueryString + "&reloadsnapshot=1";
+					else
+						SnapshotReloadURL = SnapshotReloadURL + SnapshotQueryString;
+
+					window.location.href = SnapshotReloadURL;
+
+					return false;
+				}
+			}
+
+			function toolsTitleBarChangeLanguageReport(selectedlanguageobject){
+				if (!IsReloading){
+					IsReloading = true;
+
+					var SnapshotReloadURL = SnapshotOriginalReloadURL;
+					var SnapshotQueryString = SnapshotOriginalQueryString;
+
+					if (SnapshotReloadURL == '')
+						SnapshotReloadURL = 'snapshot.aspx?';
+
+					if (selectedlanguageobject != null && selectedlanguageobject.value != null)
+
+					var NewLanguageKey = selectedlanguageobject.value;
+					if (SnapshotQueryString.indexOf("reportlang") == -1)
+						SnapshotReloadURL = SnapshotReloadURL + SnapshotQueryString + "&reportlang="+NewLanguageKey;
+					else
+						SnapshotReloadURL = SnapshotReloadURL + SnapshotQueryString.slice(0, -2)+NewLanguageKey;
+
+					window.location.href = SnapshotReloadURL;
+
+					return false;
+				}
+			}
+			//]]>
+							</script>
+							<script type="text/javascript" src="http://lt.morningstar.com/js/snapshot.js?183992"></script>
+							<div class="clearfix">
+								<div id="mainContentDiv">
+									<table class="snapshotTextColor snapshotTextFontStyle snapshotTitleTable" cellpadding="0" cellspacing="0" border="0" width="100%" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+										<tbody>
+											<tr>
+												<td style="font-weight: bold;font-size: 14px;line-height: 20px;padding-bottom: 10px;text-align: left;">
+													<span>Helia Renovables F.C.R.</span>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<div id="TabContentDiv">
+										<div id="snapshotTabDiv">
+											<table cellpadding="0" cellspacing="0" border="0" width="100%" class="snapshotTextColor snapshotTextFontStyle snapshotTabTable">
+												<tr>
+													<td>
+														<div class="inactiveTab">
+															<table>
+																<tr>
+																	<td class="inactiveTabLeft">
+																		<span class="inactiveTabSpacer"> </span>
+																	</td>
+																	<td class="inactiveTabCenter">
+																		<a class="inactiveTabCenter" href="snapshot.aspx?tab=0&amp;SecurityToken=CBLT021596]2]1]CBALL$$ALL_3947&amp;Id=CBLT021596&amp;ClientFund=1&amp;BaseCurrencyId=EUR&amp;CurrencyId=EUR&amp;LanguageId=es-ES">General</a>
+																	</td>
+																	<td class="inactiveTabRight"> </td>
+																</tr>
+															</table>
+														</div>
+													</td>
+													<td class="activeTabLeft"> </td>
+													<td class="activeTabCenter">Información legal</td>
+													<td class="activeTabRight"> </td>
+													<td class="lineRight">
+														<span class="inactiveTabSpacer"> </span>
+													</td>
+												</tr>
+											</table>
+										</div>
+										<div id="snapshotIconsDiv">
+											<table class="snapshotTextColor snapshotTextFontStyle snapshotIconsTable" border="0">
+												<tr>
+													<td class="title">Informe de Morningstar | 23/04/2018</td>
+													<td class="icons"/>
+												</tr>
+											</table>
+										</div>
+										<table xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+											<tbody>
+												<tr>
+													<td style="width:100%;">
+														<span>
+															<table id="legaldocstable" class="snapshotTextColor snapshotTextFontStyle snapshotTable managementFeesTable">
+																<tbody>
+																	<tr>
+																		<td style="width:39.5%;" colspan="4">
+																			<span>
+																				<tr>
+																					<td colspan="4" class="titleBarHeading">Información legal</td>
+																				</tr>
+																				<tr>
+																					<td class="docHeading docDocumentType">Tipo de Documento</td>
+																					<td class="docHeading docLanguageHeader">Idioma</td>
+																					<td class="docHeading docEffectiveDateHeader">Fecha Efectiva</td>
+																					<td class="docHeading docFormatHeader">Formato</td>
+																				</tr>
+																			</span>
+																		</td>
+																	</tr>
+																	<tr id="docFolleto">
+																		<td style="width:39.5%;" class="docType">
+																			<span>Folleto</span>
+																		</td>
+																		<td style="width:14%;" class="docLanguage">
+																			<span>Español</span>
+																		</td>
+																		<td style="width:29.5%;" class="docEffectiveDate">
+																			<span>09/03/2017</span>
+																		</td>
+																		<td style="width:17%;" class="docFormat" id="fcr_folleto">
+																			<span>http://lt.morningstar.com/util/GetDocument.ashx?InstitutionId=313%26FileKey=heliafolleto%26languageId=es-ES</span>
+																		</td>
+																		<td style="width:17%;" Id="DocumentId" class="hidden">
+																			<span>11359</span>
+																		</td>
+																	</tr>
+																	<tr class="docLibHeading">
+																		<td style="width:39.5%;" colspan="4" id="libdocMemoria">
+																			<span>
+																				<br />
+																			</span>
+																		</td>
+																	</tr>
+																	<tr id="docReglamento">
+																		<td style="width:39.5%;" class="docType">
+																			<span>Reglamento</span>
+																		</td>
+																		<td style="width:14%;" class="docLanguage">
+																			<span>Español</span>
+																		</td>
+																		<td style="width:29.5%;" class="docEffectiveDate">
+																			<span>09/03/2017</span>
+																		</td>
+																		<td style="width:17%;" class="docFormat" id="fcr_reglamento">
+																			<span>http://lt.morningstar.com/util/GetDocument.ashx?InstitutionId=313%26FileKey=heliareglamento%26languageId=es-ES</span>
+																		</td>
+																		<td style="width:17%;" Id="DocumentId" class="hidden">
+																			<span>11360</span>
+																		</td>
+																	</tr>
+																	
+																	<!-- ejemplo de un nuevo tipo de documento -->
+																	<tr class="docLibHeading">
+																		<td style="width:39.5%;" colspan="4" id="libdocMemoria">
+																			<span>
+																				<br />
+																			</span>
+																		</td>
+																	</tr>
+																	<tr id="docFichaPrecontractual">
+																		<td style="width:39.5%;" class="docType">
+																			<span>Ficha Precontracual</span>
+																		</td>
+																		<td style="width:14%;" class="docLanguage">
+																			<span>Español</span>
+																		</td>
+																		<td style="width:29.5%;" class="docEffectiveDate">
+																			<span>09/03/2017</span>
+																		</td>
+																		<td style="width:17%;" class="docFormat" id="fcr_fichaprecontractual">
+																			<span>http://lt.morningstar.com/util/GetDocument.ashx?InstitutionId=313%26FileKey=heliareglamento%26languageId=es-ES</span>
+																		</td>
+																		<td style="width:17%;" Id="DocumentId" class="hidden">
+																			<span>11360</span>
+																		</td>
+																	</tr>																	
+																	
+																	<tr class="docLibHeading">
+																		<td style="width:39.5%;" colspan="4" id="libdocMemoria">
+																			<span>
+																				<br />
+																			</span>
+																		</td>
+																	</tr>
+																	<tr id="docInformeAnual">
+																		<td style="width:39.5%;" class="docType">
+																			<span>Memoria Anual</span>
+																		</td>
+																		<td style="width:14%;" class="docLanguage">
+																			<span>Español</span>
+																		</td>
+																		<td style="width:29.5%;" class="docEffectiveDate">
+																			<span>09/03/2017</span>
+																		</td>
+																		<td style="width:17%;" class="docFormat" id="fcr_anual">
+																			<span>http://lt.morningstar.com/util/GetDocument.ashx?InstitutionId=313%26FileKey=heliaanual%26languageId=es-ES</span>
+																		</td>
+																		<td style="width:17%;" Id="DocumentId" class="hidden">
+																			<span>11392</span>
+																		</td>
+																	</tr>
+																	<tr class="docLibHeading">
+																		<td style="width:39.5%;" colspan="4" id="libdocMemoria">
+																			<span>
+																				<br />
+																			</span>
+																		</td>
+																	</tr>
+																	<tr id="docInformeAnual">
+																		<td style="width:39.5%;" class="docType">
+																			<span>Trimestral</span>
+																		</td>
+																		<td style="width:14%;" class="docLanguage">
+																			<span>Español</span>
+																		</td>
+																		<td style="width:29.5%;" class="docEffectiveDate">
+																			<span>09/03/2017</span>
+																		</td>
+																		<td style="width:17%;" class="docFormat" id="fcr_trimestral">
+																			<span>http://lt.morningstar.com/util/GetDocument.ashx?InstitutionId=313%26FileKey=heliatrimestral%26languageId=es-ES</span>
+																		</td>
+																		<td style="width:17%;" Id="DocumentId" class="hidden">
+																			<span>11393</span>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</span>
+													</td>
+												</tr>
+												<tr>
+													<td style="width:100%;">
+														<span>
+															<table id="enlacespie">
+																<tbody>
+																	<tr>
+																		<td style="width:230px;" colspan="3">
+																			<span>
+																				<br />
+																			</span>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td style="width:230px;" id="comparelnk">
+																			<span> </span>
+																		</td>
+																		<td style="width:200px;"/>
+																	</tr>
+																</tbody>
+															</table>
+														</span>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+
+
+							<!-- start of disclaimer -->
+							<script type="text/javascript">
+//<![CDATA[
+	var customDisclaimer = 'ctl00_ContentPlaceHolder1_msBottomDisclaimer_ms_disclaimer_custom_section';
+	var customDisclaimerInnerHTML = "";
+	var hdnUserId = 'ctl00_ContentPlaceHolder1_msBottomDisclaimer_hdnUserId';
+//]]>
+							</script>
+
+
+
+
+							<!-- end of disclaimer -->
+						</div>
+
+						<script type="text/javascript">
+	//<![CDATA[
+		if (typeof(initMain) == 'function') initMain();
+	//]]>
+						</script>
+
+						<input type="hidden" name="ctl00$__RequestVerificationToken" id="ctl00___RequestVerificationToken" value="1bU-y1TJhywMo5Y1huYntYQZr6BQ875XV3ceFiJs37oEx1c8Lobj_W0K0EVSpkTxt0EHzn8bk9B2MD-U196s4JXp8xBRqmROO0fPZojiXu01" />
+						<div>
+
+							<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="5AFD32B6" />
+							<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+							<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="2jnrY7fUyDXZa0oxPIN/V9Og+ryhs6hMwZ05VT3gJkeA2qHiOMO7XkY3IZzlrqFmHGIbAegPhqtQ0e4XiuNFVgZKHOkaV/KZixyFoziO9j3HMKBj9wMIsbedQDDPzel9x58faYJmn+fgqb830bC472JIlDM7/2aZ3jHp4wCU1KrDplhjsYXYqMCMZh9gG0AN+m2lQvl5TT8eVLM0yx8PKV1TEmpAbNQFPG82xDeDOdI78Mi4xR506wEnvs4DnY9uuZUjYAmat/zMUUX011ZsH9R0LCGGBOXnFEeKj9G3YErxwyMmoIipWXa9tmuPmtl7XuW89pRIKF0eZWeTEUB4EMRQzVhgdBJ7w8gMiTfCegLSFuGB6fYnogkZHmAtxjDj" />
+						</div>
+
+						<script type="text/javascript">
+//<![CDATA[
+$.ajaxSetup({headers: {'__RequestVerificationToken':'TN5uotQBFFqXilljssDTLMBKzhgDCxkiJRYwoK_c5Gs-z8JAS7rkbnSqsc6QevN098mao7iXqsygcnN7hStjw0V8K-sFTtRW5ii4JR5AAd81:1bU-y1TJhywMo5Y1huYntYQZr6BQ875XV3ceFiJs37oEx1c8Lobj_W0K0EVSpkTxt0EHzn8bk9B2MD-U196s4JXp8xBRqmROO0fPZojiXu01'}});//]]>
+						</script>
+					</form>
+
+					<div id="MasterMainContentBottom">
+						<script type="text/javascript">
+
+$(document).ready(function() {
+   var PDFUrl = $(".icons").html();
+   var PDFText= "Ficha Comercial";
+   var parametroC='';
+   var screenerURL = '/1rsmhj5bdn/fundscreener/default.aspx';
+
+							<!--FCR funds -->
+
+$('#fcr_folleto').html('<a target="_blank" href="' +decodeURIComponent($('#fcr_folleto span').html())+'"><img src="http://lt.morningstar.com/img/icons/pdf_small.gif?173858" border="0" align="center" alt="PDF" title="PDF"></a>');
+$('#fcr_reglamento').html('<a target="_blank" href="' +decodeURIComponent($('#fcr_reglamento span').html())+'"><img src="http://lt.morningstar.com/img/icons/pdf_small.gif?173858" border="0" align="center" alt="PDF" title="PDF"></a>');
+$('#fcr_fichaprecontractual').html('<a target="_blank" href="' +decodeURIComponent($('#fcr_fichaprecontractual span').html())+'"><img src="http://lt.morningstar.com/img/icons/pdf_small.gif?173858" border="0" align="center" alt="PDF" title="PDF"></a>');
+$('#fcr_anual').html('<a target="_blank" href="' +decodeURIComponent($('#fcr_anual span').html())+'"><img src="http://lt.morningstar.com/img/icons/pdf_small.gif?173858" border="0" align="center" alt="PDF" title="PDF"></a>');
+$('#fcr_trimestral').html('<a target="_blank" href="' +decodeURIComponent($('#fcr_trimestral span').html())+'"><img src="http://lt.morningstar.com/img/icons/pdf_small.gif?173858" border="0" align="center" alt="PDF" title="PDF"></a>');
+
+
+											<!--END FCR funds -->
+
+$('div#dividendsTrailingDiv:nth-child(1) .titleBarHeading').text('Últimos dividendos');
+
+    if(request('c')=='app' || getCookie('c') == 'app'){ 
+       $('.buy').hide();
+    }
+
+    if(request('c')!=''){
+         parametroC=request('c');
+    }
+    else if (getCookie('c')!=''){
+           parametroC=getCookie('c');
+    }
+
+    if(parametroC!=''){
+       screenerURL += '?CurrencyId=EUR&c=' + parametroC;
+    }
+
+    //$(".icons").html("Ficha Comercial" + "&nbsp;" + PDFUrl);
+    $('<div id="pdfDes">' + PDFText + '</div>').insertBefore("img.iconSmallPdfImg");
+  	document.title = "Información del fondo"; 
+  	//elementTitle = document.getElementById("ctl00_ContentPlaceHolder1_msTopBar_divTitlebarTitle");
+    //elementTitle.innerHTML= "<h2>Información del fondo</h2>";
+    $("#comparelnk").html('<a href="' + screenerURL +'" + parametroC><div id="linksearch">&nbsp;</div></a>');
+    $('table.managementPurchaseInformationTable td.titleBarHeading').hide()
+    $('<img class="iconPrintImg2" border="0" title="Imprimir" alt="Imprimir" src="http://lt.morningstar.com/util/GetImage.ashx?FileId=4927">').insertAfter('.iconPrint')
+
+	//HEre
+	$('<span>Abrir&nbsp;&nbsp;</span>').insertBefore('img[title="PDF"]')
+
+
+
+
+});
+//Insert Here
+if(document.location.href.indexOf('tab=11') !=-1){
+
+
+
+
+$.expr[":"].econtains = function(obj, index, meta, stack){
+		return (obj.textContent || obj.innerText || $(obj).text() || "").toLowerCase() == meta[3].toLowerCase();
+	}
+
+
+
+
+	$(document).ready(function() {
+
+
+
+
+		var counter = 0;
+
+
+
+
+		$("td:econtains('Informe Semestral')").each(function(){
+
+			if(counter > 1){
+				$(this).parent().remove();
+			}
+
+			counter++;
+
+
+
+
+		});
+
+
+
+
+		counter = 0;
+
+
+
+
+		$("td:econtains('Informe Trimestral')").each(function(){
+
+			if(counter > 1){
+				$(this).parent().remove();
+			}
+			counter++;
+		});
+	});
+
+
+
+
+/* REMOVE DUPLICATES */
+
+
+
+
+		var currentEffectivedate = -999;
+                var currentEffectivedates = [-999];
+                var compareDate = null;
+
+
+
+
+		$("td:econtains('Informe Semestral')").each(function(){
+
+				//remove duplicate effective dates 
+                               compareDate =	 $(this).nextAll().eq(1).html()
+
+
+
+
+                                //if(currentEffectivedate == compareDate)
+				if($.inArray(compareDate,currentEffectivedates)>-1){
+					$(this).parent().remove();
+				}
+				else{
+					//currentEffectivedate = compareDate;
+                                        currentEffectivedates.push(compareDate);
+				}
+
+
+
+
+		});
+
+
+
+
+                currentEffectivedate = -999;
+
+
+
+
+		$("td:econtains('Informe Trimestral')").each(function(){
+
+
+
+
+			//remove duplicate effective dates	
+				if(currentEffectivedate == $(this).nextAll().eq(1).html())
+				{
+					$(this).parent().remove();
+				}
+				else
+                                {
+					currentEffectivedate = $(this).nextAll().eq(1).html();
+				}
+		});
+
+
+
+
+
+
+
+
+                currentEffectivedate = -999;
+
+
+
+
+		$("td:econtains('Memoria Anual')").each(function(){
+
+
+
+
+			//remove duplicate effective dates	
+				if(currentEffectivedate == $(this).nextAll().eq(1).html())
+				{
+					$(this).parent().remove();
+				}
+				else
+                               {
+					currentEffectivedate = $(this).nextAll().eq(1).html();
+				}
+		});
+
+
+
+
+/*END REMOVE DUPLICATES*/
+}
+//End insert
+
+if(document.location.href.indexOf('p_snapshot') !=-1){
+   $('.buySellButton').hide();
+   $('.buySellButton').css('display','none');
+   $('#enlacespie').hide();
+   $('#enlacespie').css('display','none');
+   $('.snapshotBuyImage').hide();
+   $('.snapshotBuyImage').css('display','none');
+   $('.snapshotTable').css('table-layout','fixed');
+   window.print();
+}
+
+if(CurrencyId == "BAS"){
+   var GrowthText ="Crecimiento sobre 1.000";
+
+   var currencyText = "";
+
+   switch(HoldingCurrency){
+   case 'AUD':
+           currencyText= "AUD - Dólar Australiano";
+   break;
+   case 'CAD':
+           currencyText= "CAD - Dólar Canadiense";
+   break;
+   case 'CHF':
+           currencyText= "CHF - Franco Suizo";
+   break;
+   case 'EUR':
+           currencyText= "EUR - Euro";
+   break;
+   case 'HKD':
+           currencyText= "HKD - Dólar de Hong Kong";
+   break;
+   case 'JPY':
+           currencyText= "JPY - Yen Japonés";
+   break;
+   case 'NOK':
+           currencyText= "NOK - Corona Sueca";
+   break;
+   case 'SEK':
+           currencyText= "SEK - Corona Sueca";
+   break;
+   case 'USD':
+           currencyText= "USA - Dólar USA";
+   break;
+   default:
+           currencyText="EUR - Euro";
+}
+   $('.msTitleBarSelectCurrency').val(HoldingCurrency);
+   $('#growthOf10kGraphDiv .heading').first().text(GrowthText+' ('+currencyText+')');
+}
+
+//Base currency
+$('.snapshotTabTable a').each(function(){
+var tempUrl = $(this).prop('href');
+if(tempUrl.indexOf('&CurrencyId=')==-1){
+$(this).prop('href',tempUrl + '&CurrencyId=' + HoldingCurrency)
+}
+}); 
+										</script>
+
+
+										<script type="text/javascript">
+	var str_urlmemoria = $('#memoria').html();
+	var memorialink = '<a href=\"' + str_urlmemoria + '\" target=\"_blank\"><span>Abrir  </span><img border=\"0\" align=\"middle\" title=\"PDF\" alt=\"PDF\" src=\"/img/icons/pdf_small.gif\">';
+	//alert(memorialink);
+	//$('#memoria').html(memorialink);
+	$('#memoria span').html('<a target="_blank" title="PDF" alt="PDF" href="' + $('#memoria span').html() + '"><img border="0" align="middle" title="PDF" alt="PDF" src="http://lt.morningstar.com/img/icons/pdf_small.gif"></a>')
+
+//Remove duped Kiids
+$("#legaldocstable td:contains('KIID/DFI'):eq(1)").parent().hide();
+
+													</script>
+
+												</div>
+
+
+											</div>
+
+											<div id="MasterNavigationRight">
+
+											</div>
+										</div>
+
+										<div id="MasterNavigationBottom">
+											<table id="m_logo" style="float:left;">
+												<tr>
+													<td align="right">
+														<img src="http://lt.morningstar.com/img/MstarLogo_black.gif" />
+													</td>
+												</tr>
+											</table>
+
+										</div>
+
+
+
+
+									</body>
+
+								</html>
